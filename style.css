@@ -319,7 +319,7 @@ a {
         }
 
         to {
-            font-size: 9px;
+            font-size: 12px;
         }
     }
 
@@ -347,14 +347,14 @@ a {
         font-size: 20px;
         color: #FFFFFF;
         margin-top: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         word-wrap: break-word;
     }
 
     article p {
         color: #FFFFFF;
         margin-top: 5px;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
         word-wrap: break-word;
         font-size: 7px;
     }
