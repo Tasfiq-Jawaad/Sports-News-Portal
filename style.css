@@ -67,7 +67,10 @@ article p {
     animation: scale 1s linear 0s infinite alternate;
 }
 
+.header-button p {
+    animation: scale 1s linear 0s infinite alternate;
 
+}
 
 
 button p {
@@ -500,6 +503,11 @@ a {
         margin-bottom: 15px;
         font-size: 15px;
         animation: scale 1s linear 0s infinite alternate;
+    }
+
+    .header-button p {
+        animation: scale 1s linear 0s infinite alternate;
+
     }
 
     article h1 {
