@@ -301,7 +301,7 @@ a {
 @media screen and (max-width: 576px) {
     .header {
         width: 80%;
-        height: 350px;
+        height: 550px;
         display: grid;
         grid-template-columns: 1fr;
         background-color: #161616;
@@ -344,10 +344,10 @@ a {
 
 
     article h1 {
-        font-size: 20px;
+        font-size: 30px;
         color: #FFFFFF;
-        margin-top: 10px;
-        margin-bottom: 40px;
+        margin-top: 15px;
+        margin-bottom: 45px;
         word-wrap: break-word;
     }
 
@@ -356,12 +356,12 @@ a {
         margin-top: 5px;
         margin-bottom: 25px;
         word-wrap: break-word;
-        font-size: 7px;
+        font-size: 15px;
     }
 
     .header-pic {
 
-        width: 40%;
+        width: 60%;
         margin-top: 5%;
     }
 
@@ -459,13 +459,13 @@ a {
         }
 
         to {
-            font-size: 17px;
+            font-size: 20px;
         }
     }
 
     .header {
         width: 80%;
-        height: 300px;
+        height: 350px;
         background-color: #161616;
         margin: 50px auto 0px auto;
         display: flex;
@@ -489,7 +489,7 @@ a {
         padding: 10px 20px;
         border-radius: 10px;
         border: none;
-        margin-top: 15px;
+        margin-top: 20px;
         margin-bottom: 15px;
         font-size: 15px;
         animation: scale 1s linear 0s infinite alternate;
@@ -504,7 +504,7 @@ a {
 
     article p {
         color: #FFFFFF;
-        margin-top: 8px;
+        margin-top: 30px;
         margin-bottom: 8px;
         word-wrap: break-word;
         font-size: 13px;
