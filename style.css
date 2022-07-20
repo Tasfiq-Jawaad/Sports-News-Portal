@@ -1,0 +1,699 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+
+}
+
+/*--------------
+Header
+ --------------*/
+
+.header {
+    width: 80%;
+    background-color: #161616;
+    margin: 50px auto 0px auto;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+
+/* ---------------------------
+header article  
+-----------------------------*/
+
+
+.header-article {
+    width: 100%;
+    margin: auto 0% auto 07%;
+    text-align: center;
+
+}
+
+article h1 {
+    font-size: 4em;
+    color: #FFFFFF;
+    margin: 0px;
+    word-wrap: break-word;
+}
+
+article p {
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+}
+
+@keyframes scale {
+    from {
+        font-size: 20px;
+    }
+
+    to {
+        font-size: 22px;
+    }
+}
+
+.header-button {
+    Background-color: #DD0000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    font-size: 20px;
+    animation: scale 1s linear 0s infinite alternate;
+}
+
+
+
+
+button p {
+    margin-right: 5px;
+    display: inline;
+}
+
+/* ------------------------
+header pic  
+---------------------------*/
+.header-pic {
+    width: 40%;
+    margin-top: 5%;
+}
+
+.header-pic img {
+    width: 100%;
+}
+
+/*--------------
+blog
+---------------*/
+
+.blog {
+    width: 80%;
+    margin: 100px auto 0 auto;
+    justify-content: space-between;
+}
+
+/* -----------------------
+nav menu  
+-------------------------*/
+
+
+
+nav {
+
+    width: 300px;
+}
+
+
+#match {
+    width: 80%;
+    height: 60px;
+    margin: 30px auto 0px auto;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 0%;
+    border: 1px solid #16161633;
+    background-color: #FFFFFF;
+
+}
+
+#group {
+    width: 80%;
+    height: 60px;
+    margin: 0px auto 0 auto;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    border: 1px solid #16161633;
+    background-color: #FFFFFF;
+}
+
+#blog-button {
+    background-color: #DD0000;
+    color: white;
+    width: 80%;
+    height: 60px;
+    margin: 0 auto 30px auto;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid #16161633;
+    border: none;
+}
+
+/* -------------------------
+blog body  
+----------------------------*/
+
+
+.blog-body {
+
+
+    width: 100%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5%;
+    column-gap: 5%;
+    margin: 0 auto;
+
+}
+
+/* -----------------------
+Block box  
+------------------------*/
+
+.blog-box {
+    border: 1px solid #16161628;
+    width: 100%;
+    border-radius: 3%;
+    padding-bottom: 5%;
+}
+
+.blog-box img {
+    width: 100%;
+    margin: 0px;
+}
+
+.blog-box button {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #FFFFFF;
+    border: 2px solid #161616;
+    padding: 2% 5%;
+    border-radius: 5px;
+}
+
+.blog-box h3 {
+    margin-left: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-bottom: 5%;
+}
+
+span {
+    margin-left: 5%;
+    display: inline;
+}
+
+
+span i {
+    margin-right: 2%;
+}
+
+span p {
+    margin-right: 5%;
+    display: inline;
+    color: #161616;
+}
+
+/* -------------------
+View all button  
+----------------------*/
+
+
+.view-all {
+    Background-color: #DD0000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    display: none;
+    margin: 100px auto;
+}
+
+
+
+/* ------------------
+Footer  
+-------------------*/
+
+footer {
+    background-color: #161616;
+    width: 100%;
+    height: 300px;
+    padding-top: 70px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+footer h1 {
+    color: #FFFFFF;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+
+
+hr {
+    width: 80%;
+    color: #ffffff0e;
+}
+
+.contact {
+    width: 75%;
+    margin-left: 12.5%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.contact p {
+    color: #FFFFFF;
+}
+
+/*------------------ 
+social link 
+------------------ */
+
+.social {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+
+
+}
+
+.social span p {
+    color: #FFFFFF;
+}
+
+.social span i {
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*--------------------
+ media query 
+----------------------- */
+
+@media screen and (max-width: 576px) {
+    .header {
+        width: 80%;
+        height: 250px;
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #161616;
+        margin: 20px auto 0px auto;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: end;
+        justify-items: center;
+
+    }
+
+    @keyframes scale {
+        from {
+            font-size: 7px;
+        }
+
+        to {
+            font-size: 9px;
+        }
+    }
+
+    .header-button {
+        Background-color: #DD0000;
+        color: white;
+        padding: 6px 12px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 9px;
+        margin-bottom: 9px;
+        font-size: 15px;
+        animation: scale 1s linear 0s infinite alternate;
+    }
+
+    article h1 {
+        font-size: 1em;
+        color: #FFFFFF;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        word-wrap: break-word;
+    }
+
+    article p {
+        color: #FFFFFF;
+        margin-top: 1px;
+        margin-bottom: 3px;
+        word-wrap: break-word;
+        font-size: 7px;
+    }
+
+    .header-pic {
+
+        width: 40%;
+        margin-top: 5%;
+    }
+
+    .header-pic img {
+        display: block;
+        width: 100%;
+    }
+
+    .blog {
+        width: 80%;
+        margin: 100px auto 100px auto;
+        justify-content: space-between;
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin-bottom: 100px;
+        justify-items: center;
+
+    }
+
+    #match {
+        width: 60%;
+        height: 60px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        font-size: 18px;
+        padding: 0%;
+        border: 2px solid #16161633;
+    }
+
+    #group {
+        width: 50%;
+        height: 60px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 0%;
+        border: 2px solid #16161633;
+    }
+
+    #blog-button {
+        background-color: #DD0000;
+        color: white;
+        width: 50%;
+        height: 60px;
+        margin: 0;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 0%;
+        border: 2px solid #16161633;
+    }
+
+    .blog-body {
+
+
+        width: 100%;
+        margin-left: 5%;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        column-gap: 5%;
+        margin: 0 auto 0 auto;
+
+    }
+
+    footer {
+        background-color: #161616;
+        width: 100%;
+        height: 650px;
+        padding-top: 70px;
+        margin-top: 100px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .contact {
+        width: 75%;
+        margin-left: 12.5%;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+        margin-top: 30px;
+
+    }
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    @keyframes scale {
+        from {
+            font-size: 15px;
+        }
+
+        to {
+            font-size: 17px;
+        }
+    }
+
+    .header {
+        width: 80%;
+        height: 300px;
+        background-color: #161616;
+        margin: 50px auto 0px auto;
+        display: flex;
+        border-radius: 20px;
+        justify-content: space-around;
+        align-items: flex-end;
+
+    }
+
+    .header-article {
+        width: 40%;
+        margin: auto 0% auto 07%;
+
+    }
+
+
+
+    .header-button {
+        Background-color: #DD0000;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 15px;
+        animation: scale 1s linear 0s infinite alternate;
+    }
+
+    article h1 {
+        font-size: 2em;
+        color: #FFFFFF;
+        margin-top: 15px;
+        word-wrap: break-word;
+    }
+
+    article p {
+        color: #FFFFFF;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        word-wrap: break-word;
+        font-size: 13px;
+    }
+
+    .blog {
+        width: 80%;
+        margin: 100px auto 200px auto;
+        justify-content: space-between;
+    }
+
+    nav {
+        display: flex;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    #match {
+        width: 30%;
+        height: 60px;
+        margin: 0;
+        border-radius: 10px;
+        font-size: 18px;
+        padding: 0%;
+        border: 2px solid #16161633;
+    }
+
+    #group {
+        width: 30%;
+        height: 60px;
+        margin: 0p;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 0%;
+        border: 2px solid #16161633;
+    }
+
+    #blog-button {
+        background-color: #DD0000;
+        color: white;
+        width: 30%;
+        height: 60px;
+        margin: 0;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 0%;
+        border: 2px solid #16161633;
+    }
+
+    .blog-body {
+
+
+        width: 100%;
+        margin-left: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 5%;
+        column-gap: 5%;
+        margin: 0 auto 0 auto;
+
+    }
+
+    .view-all {
+        Background-color: #DD0000;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 10px;
+        border: none;
+        display: block;
+        margin: 100px auto;
+        font-size: 30px;
+    }
+
+    footer {
+        background-color: #161616;
+        width: 100%;
+        height: 300px;
+        padding-top: 70px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+}
+
+
+
+@media screen and (min-width: 993px) {
+    .header {
+        width: 80%;
+        background-color: #161616;
+        margin: 50px auto 0px auto;
+        display: flex;
+        border-radius: 20px;
+        justify-content: space-around;
+        align-items: flex-end;
+
+    }
+
+    .blog {
+        display: flex;
+        width: 80%;
+        margin: 100px auto 0px auto;
+        justify-content: space-between;
+    }
+
+    nav {
+        background-color: #161616;
+        width: 300px;
+        height: 300px;
+        display: grid;
+        grid-template-rows: repeat(3 1fr);
+        row-gap: 30px;
+        border-radius: 10px;
+    }
+
+    /* -------------------------
+    blog body  
+    ----------------------------*/
+
+
+    .blog-body {
+
+
+        width: 100%;
+        margin-left: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 5%;
+        column-gap: 5%;
+
+    }
+
+    /* -----------------------
+    Block box  
+    ------------------------*/
+
+    .blog-box {
+        border: 1px solid #16161628;
+        width: 100%;
+        border-radius: 3%;
+        padding-bottom: 5%;
+    }
+
+    .blog-box img {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .blog-box button {
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background-color: #FFFFFF;
+        border: 2px solid #161616;
+        padding: 2% 5%;
+        border-radius: 5px;
+    }
+
+    .blog-box h3 {
+        margin-left: 5%;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-bottom: 5%;
+    }
+
+    span {
+        margin-left: 5%;
+        display: inline;
+    }
+
+
+    span i {
+        margin-right: 2%;
+    }
+
+    span p {
+        margin-right: 5%;
+        display: inline;
+        color: #161616;
+    }
+
+    /* -------------------
+    View all button  
+    ----------------------*/
+
+
+    .view-all {
+        Background-color: #DD0000;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        display: none;
+        margin: 100px auto;
+    }
+
+
+
+}
