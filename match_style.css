@@ -40,7 +40,7 @@ article h1 {
     word-wrap: break-word;
 }
 
-article p {
+.header-article p {
     color: #FFFFFF;
     margin-top: 20px;
     margin-bottom: 70px;
@@ -121,10 +121,9 @@ nav a {
     margin: 30px auto 0px auto;
     border-radius: 10px;
     font-size: 18px;
-    padding: 0%;
     border: 1px solid #16161633;
-    color: #161616;
-    background-color: #FFFFFF;
+    color: white;
+    background-color: #DD0000;
     text-align: center;
 
 }
@@ -138,20 +137,22 @@ nav a {
     border: none;
     border: 1px solid #16161633;
     background-color: #FFFFFF;
+    color: #161616;
     text-align: center;
 }
 
 #blog-button {
-    background-color: #DD0000;
-    color: white;
+    background-color: #FFFFFF;
     width: 80%;
     height: 60px;
     margin: 0 auto 30px auto;
     border-radius: 10px;
     font-size: 20px;
     border: 1px solid #16161633;
+    color: #161616;
     text-align: center;
-    border: none;
+    text-decoration: none;
+
 }
 
 /* -------------------------
@@ -180,30 +181,43 @@ Block box
     border: 1px solid #16161628;
     width: 100%;
     border-radius: 3%;
-    padding-bottom: 5%;
 }
 
-.blog-box img {
+#vs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
-    margin: 0px;
+    margin: 15% 0 0 0;
 }
 
-.blog-box button {
-    margin-left: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    background-color: #FFFFFF;
-    border: 2px solid #161616;
-    padding: 2% 5%;
-    border-radius: 5px;
+#vs img {
+    width: 94px;
+    height: 55px;
 }
 
-.blog-box h3 {
-    margin-left: 5%;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-bottom: 5%;
+#vs h3 {
+    margin: 0;
+    font-weight: 20px;
 }
+
+
+.blog-box p {
+    font-size: 15px;
+    text-align: center;
+    color: #1616168a;
+    margin-bottom: 15%;
+}
+
+#team {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+
 
 span {
     margin-left: 5%;
@@ -368,7 +382,7 @@ a {
         word-wrap: break-word;
     }
 
-    article p {
+    .header-article p {
         color: #FFFFFF;
         margin-top: 5px;
         margin-bottom: 25px;
@@ -410,6 +424,8 @@ a {
         font-size: 18px;
         padding: 0%;
         border: 2px solid #16161633;
+        background-color: #DD0000;
+        color: white;
     }
 
     #group {
@@ -423,8 +439,7 @@ a {
     }
 
     #blog-button {
-        background-color: #DD0000;
-        color: white;
+
         width: 50%;
         height: 60px;
         margin: 0;
@@ -524,7 +539,7 @@ a {
         word-wrap: break-word;
     }
 
-    article p {
+    .header-article p {
         color: #FFFFFF;
         margin-top: 5px;
         margin-bottom: 25px;
@@ -565,8 +580,6 @@ a {
     }
 
     #blog-button {
-        background-color: #DD0000;
-        color: white;
         width: 30%;
         height: 60px;
         margin: 0;
@@ -695,8 +708,7 @@ a {
 
     .blog-box h3 {
         margin-left: 5%;
-        margin-top: 0;
-        margin-bottom: 0;
+        margin-top: 10%;
         margin-bottom: 5%;
     }
 
